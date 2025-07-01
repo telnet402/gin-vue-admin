@@ -1,0 +1,169 @@
+<mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" background="none" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="node11" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;casbin_rule&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; ptype: varchar(100)&lt;br/&gt; v0: varchar(100)&lt;br/&gt; v1: varchar(100)&lt;br/&gt; v2: varchar(100)&lt;br/&gt; v3: varchar(100)&lt;br/&gt; v4: varchar(100)&lt;br/&gt; v5: varchar(100)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="596" y="1284" width="142" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node18" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;exa_attachment_category&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; name  /* 分类名称 */: varchar(255)&lt;br/&gt; pid  /* 父节点ID */: bigint&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-46" y="-212" width="226" height="184" as="geometry" />
+    </mxCell>
+    <mxCell id="node8" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;exa_customers&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; customer_name  /* 客户名 */: varchar(191)&lt;br/&gt; customer_phone_data  /* 客户手机号 */: varchar(191)&lt;br/&gt; sys_user_id  /* 管理ID */: bigint unsigned&lt;br/&gt; sys_user_authority_id  /* 管理角色ID */: bigint unsigned&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="155" y="1284" width="344" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node7" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;exa_file_chunks&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; exa_file_id: bigint unsigned&lt;br/&gt; file_chunk_number: bigint&lt;br/&gt; file_chunk_path: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="666" y="3056" width="202" height="208" as="geometry" />
+    </mxCell>
+    <mxCell id="node14" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;exa_file_upload_and_downloads&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; name  /* 文件名 */: varchar(191)&lt;br/&gt; class_id  /* 分类id */: bigint&lt;br/&gt; url  /* 文件地址 */: varchar(191)&lt;br/&gt; tag  /* 文件标签 */: varchar(191)&lt;br/&gt; key  /* 编号 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="30" y="372" width="275" height="256" as="geometry" />
+    </mxCell>
+    <mxCell id="node17" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;exa_files&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; file_name: varchar(191)&lt;br/&gt; file_md5: varchar(191)&lt;br/&gt; file_path: varchar(191)&lt;br/&gt; chunk_total: bigint&lt;br/&gt; is_finish: tinyint(1)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="682" y="2412" width="171" height="256" as="geometry" />
+    </mxCell>
+    <mxCell id="node25" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;gva_announcements_info&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; title  /* 公告标题 */: varchar(191)&lt;br/&gt; content  /* 公告内容 */: text&lt;br/&gt; user_id  /* 发布者 */: bigint&lt;br/&gt; attachments  /* 相关附件 */: json&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-185" y="24" width="225" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node16" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;jwt_blacklists&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; jwt  /* jwt */: text&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="262" y="3080" width="171" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="node1" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_apis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; path  /* api路径 */: varchar(191)&lt;br/&gt; description  /* api中文描述 */: varchar(191)&lt;br/&gt; api_group  /* api组 */: varchar(191)&lt;br/&gt; method  /* 方法 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="933" y="1284" width="268" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node9" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_authorities&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; authority_name  /* 角色名 */: varchar(191)&lt;br/&gt; parent_id  /* 父角色ID */: bigint unsigned&lt;br/&gt; default_router  /* 默认菜单 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; authority_id  /* 角色ID */: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="92" y="36" width="271" height="208" as="geometry" />
+    </mxCell>
+    <mxCell id="node13" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_authority_btns&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; authority_id  /* 角色ID */: bigint unsigned&lt;br/&gt; sys_menu_id  /* 菜单ID */: bigint unsigned&lt;br/&gt; sys_base_menu_btn_id  /* 菜单按钮ID */: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-188" y="3105" width="351" height="120" as="geometry" />
+    </mxCell>
+    <mxCell id="node20" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_authority_menus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; sys_base_menu_id: bigint unsigned&lt;br/&gt; sys_authority_authority_id  /* 角色ID */: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-9" y="2197" width="353" height="94" as="geometry" />
+    </mxCell>
+    <mxCell id="node3" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_auto_code_histories&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; table_name  /* 表名 */: varchar(191)&lt;br/&gt; package  /* 模块名/插件名 */: varchar(191)&lt;br/&gt; request  /* 前端传入的结构化信息 */: text&lt;br/&gt; struct_name  /* 结构体名称 */: varchar(191)&lt;br/&gt; abbreviation  /* 结构体名称缩写 */: varchar(191)&lt;br/&gt; business_db  /* 业务库 */: varchar(191)&lt;br/&gt; description  /* Struct中文名称 */: varchar(191)&lt;br/&gt; templates  /* 模板信息 */: text&lt;br/&gt; Injections  /* 注入路径 */: text&lt;br/&gt; flag  /* [0:创建,1:回滚] */: bigint&lt;br/&gt; api_ids  /* api表注册内容 */: varchar(191)&lt;br/&gt; menu_id  /* 菜单ID */: bigint unsigned&lt;br/&gt; export_template_id  /* 导出模板ID */: bigint unsigned&lt;br/&gt; package_id  /* 包ID */: bigint unsigned&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="521" y="724" width="332" height="472" as="geometry" />
+    </mxCell>
+    <mxCell id="node15" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_auto_code_packages&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; desc  /* 描述 */: varchar(191)&lt;br/&gt; label  /* 展示名 */: varchar(191)&lt;br/&gt; template  /* 模版 */: varchar(191)&lt;br/&gt; package_name  /* 包名 */: varchar(191)&lt;br/&gt; module: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="381" y="2772" width="252" height="256" as="geometry" />
+    </mxCell>
+    <mxCell id="node12" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_base_menu_btns&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; name  /* 按钮关键key */: varchar(191)&lt;br/&gt; desc: varchar(191)&lt;br/&gt; sys_base_menu_id  /* 菜单ID */: bigint unsigned&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-184" y="2436" width="303" height="208" as="geometry" />
+    </mxCell>
+    <mxCell id="node23" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_base_menu_parameters&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; sys_base_menu_id: bigint unsigned&lt;br/&gt; type  /* 地址栏携带参数为params还是query */: varchar(191)&lt;br/&gt; key  /* 地址栏携带参数的key */: varchar(191)&lt;br/&gt; value  /* 地址栏携带参数的值 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="194" y="2424" width="346" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node24" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_base_menus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; menu_level: bigint unsigned&lt;br/&gt; parent_id  /* 父菜单ID */: bigint unsigned&lt;br/&gt; path  /* 路由path */: varchar(191)&lt;br/&gt; name  /* 路由name */: varchar(191)&lt;br/&gt; hidden  /* 是否在列表隐藏 */: tinyint(1)&lt;br/&gt; component  /* 对应前端文件路径 */: varchar(191)&lt;br/&gt; sort  /* 排序标记 */: bigint&lt;br/&gt; active_name  /* 附加属性 */: varchar(191)&lt;br/&gt; keep_alive  /* 附加属性 */: tinyint(1)&lt;br/&gt; default_menu  /* 附加属性 */: tinyint(1)&lt;br/&gt; title  /* 附加属性 */: varchar(191)&lt;br/&gt; icon  /* 附加属性 */: varchar(191)&lt;br/&gt; close_tab  /* 附加属性 */: tinyint(1)&lt;br/&gt; transition_type  /* 附加属性 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-182" y="1544" width="298" height="472" as="geometry" />
+    </mxCell>
+    <mxCell id="node0" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_data_authority_id&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; sys_authority_authority_id  /* 角色ID */: bigint unsigned&lt;br/&gt; data_authority_id_authority_id  /* 角色ID */: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="798" y="2857" width="378" height="94" as="geometry" />
+    </mxCell>
+    <mxCell id="node26" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_dictionaries&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; name  /* 字典名（中） */: varchar(191)&lt;br/&gt; type  /* 字典名（英） */: varchar(191)&lt;br/&gt; status  /* 状态 */: tinyint(1)&lt;br/&gt; desc  /* 描述 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="407" y="1664" width="240" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node27" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_dictionary_details&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; label  /* 展示值 */: varchar(191)&lt;br/&gt; value  /* 字典值 */: varchar(191)&lt;br/&gt; extend  /* 扩展值 */: varchar(191)&lt;br/&gt; status  /* 启用状态 */: tinyint(1)&lt;br/&gt; sort  /* 排序标记 */: bigint&lt;br/&gt; sys_dictionary_id  /* 关联标记 */: bigint unsigned&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="414" y="2100" width="306" height="280" as="geometry" />
+    </mxCell>
+    <mxCell id="node19" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_export_template_condition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; template_id  /* 模板标识 */: varchar(191)&lt;br/&gt; from  /* 条件取的key */: varchar(191)&lt;br/&gt; column  /* 作为查询条件的字段 */: varchar(191)&lt;br/&gt; operator  /* 操作符 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="45" y="2784" width="285" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node6" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_export_template_join&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; template_id  /* 模板标识 */: varchar(191)&lt;br/&gt; joins  /* 关联 */: varchar(191)&lt;br/&gt; table  /* 关联表 */: varchar(191)&lt;br/&gt; on  /* 关联条件 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="259" y="-236" width="256" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node22" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_export_templates&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; db_name  /* 数据库名称 */: varchar(191)&lt;br/&gt; name  /* 模板名称 */: varchar(191)&lt;br/&gt; table_name  /* 表名称 */: varchar(191)&lt;br/&gt; template_id  /* 模板标识 */: varchar(191)&lt;br/&gt; template_info: text&lt;br/&gt; limit  /* 导出限制 */: bigint&lt;br/&gt; order  /* 排序 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-121" y="808" width="256" height="304" as="geometry" />
+    </mxCell>
+    <mxCell id="node2" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_ignore_apis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; path  /* api路径 */: varchar(191)&lt;br/&gt; method  /* 方法 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="702" y="-212" width="210" height="184" as="geometry" />
+    </mxCell>
+    <mxCell id="node5" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_operation_records&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; ip  /* 请求ip */: varchar(191)&lt;br/&gt; method  /* 请求方法 */: varchar(191)&lt;br/&gt; path  /* 请求路径 */: varchar(191)&lt;br/&gt; status  /* 请求状态 */: bigint&lt;br/&gt; latency  /* 延迟 */: bigint&lt;br/&gt; agent  /* 代理 */: text&lt;br/&gt; error_message  /* 错误信息 */: varchar(191)&lt;br/&gt; body  /* 请求Body */: text&lt;br/&gt; resp  /* 响应Body */: text&lt;br/&gt; user_id  /* 用户id */: bigint unsigned&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="351" y="312" width="273" height="376" as="geometry" />
+    </mxCell>
+    <mxCell id="node4" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_params&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; name  /* 参数名称 */: varchar(191)&lt;br/&gt; key  /* 参数键 */: varchar(191)&lt;br/&gt; value  /* 参数值 */: varchar(191)&lt;br/&gt; desc  /* 参数说明 */: varchar(191)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="558" y="24" width="218" height="232" as="geometry" />
+    </mxCell>
+    <mxCell id="node10" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_user_authority&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; sys_user_id: bigint unsigned&lt;br/&gt; sys_authority_authority_id  /* 角色ID */: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="691" y="1737" width="353" height="94" as="geometry" />
+    </mxCell>
+    <mxCell id="node21" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sys_users&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; created_at: datetime(3)&lt;br/&gt; updated_at: datetime(3)&lt;br/&gt; deleted_at: datetime(3)&lt;br/&gt; uuid  /* 用户UUID */: varchar(191)&lt;br/&gt; username  /* 用户登录名 */: varchar(191)&lt;br/&gt; password  /* 用户登录密码 */: varchar(191)&lt;br/&gt; nick_name  /* 用户昵称 */: varchar(191)&lt;br/&gt; header_img  /* 用户头像 */: varchar(191)&lt;br/&gt; authority_id  /* 用户角色ID */: bigint unsigned&lt;br/&gt; phone  /* 用户手机号 */: varchar(191)&lt;br/&gt; email  /* 用户邮箱 */: varchar(191)&lt;br/&gt; enable  /* 用户是否被冻结 1正常 2冻结 */: bigint&lt;br/&gt; origin_setting  /* 配置 */: text&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint unsigned&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="183" y="772" width="288" height="376" as="geometry" />
+    </mxCell>
+    <mxCell id="edge0" edge="1" value="" parent="1" source="node8" target="node21" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label2" parent="edge0" vertex="1" connectable="0" value="sys_user_id:id" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="242" y="1206" as="geometry" />
+    </mxCell>
+    <mxCell id="edge1" edge="1" value="" parent="1" source="node7" target="node17" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label8" parent="edge1" vertex="1" connectable="0" value="exa_file_id:id" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="691" y="2852" as="geometry" />
+    </mxCell>
+    <mxCell id="edge2" edge="1" value="" parent="1" source="node13" target="node12" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-13" y="3080" />
+          <mxPoint x="-33" y="3080" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label14" parent="edge2" vertex="1" connectable="0" value="sys_base_menu_btn_id:id" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="-164" y="3082" as="geometry" />
+    </mxCell>
+    <mxCell id="edge6" edge="1" value="" parent="1" source="node20" target="node24" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="167" y="2160" />
+          <mxPoint x="-33" y="2160" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label38" parent="edge6" vertex="1" connectable="0" value="sys_base_menu_id:id" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="40" y="2168" as="geometry" />
+    </mxCell>
+    <mxCell id="edge5" edge="1" value="" parent="1" source="node12" target="node24" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label32" parent="edge5" vertex="1" connectable="0" value="sys_base_menu_id:id" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="-160" y="2216" as="geometry" />
+    </mxCell>
+    <mxCell id="edge3" edge="1" value="" parent="1" source="node23" target="node24" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="367" y="2160" />
+          <mxPoint x="-33" y="2160" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label20" parent="edge3" vertex="1" connectable="0" value="sys_base_menu_id:id" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="240" y="2176" as="geometry" />
+    </mxCell>
+    <mxCell id="edge7" edge="1" value="" parent="1" source="node27" target="node26" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="567" y="2080" />
+          <mxPoint x="527" y="2080" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label44" parent="edge7" vertex="1" connectable="0" value="sys_dictionary_id:id" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="455" y="2080" as="geometry" />
+    </mxCell>
+    <mxCell id="edge4" edge="1" value="" parent="1" source="node10" target="node21" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="867" y="1260" />
+          <mxPoint x="327" y="1260" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label26" parent="edge4" vertex="1" connectable="0" value="sys_user_id:id" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="555" y="1240" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
